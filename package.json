@@ -8,6 +8,9 @@
     "preinstall": "node-waf configure && node-waf build",
     "preuninstall": "rm -rf build/*"
   },
+  "engines": {
+    "npm":"1.4.x"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/inolen/rex.git"
